@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'A0190_HandingError' target in the 'A0190_HandingError' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

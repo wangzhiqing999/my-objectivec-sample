@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'A0003_BaseDataType' target in the 'A0003_BaseDataType' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

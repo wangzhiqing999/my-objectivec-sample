@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'A0001_HelloWorld' target in the 'A0001_HelloWorld' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

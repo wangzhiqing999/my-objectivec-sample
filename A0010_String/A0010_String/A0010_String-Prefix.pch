@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'A0010_String' target in the 'A0010_String' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

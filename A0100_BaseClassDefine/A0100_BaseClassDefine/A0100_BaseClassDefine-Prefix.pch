@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'A0100_BaseClassDefine' target in the 'A0100_BaseClassDefine' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

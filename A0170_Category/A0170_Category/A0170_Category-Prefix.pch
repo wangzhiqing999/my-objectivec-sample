@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'A0170_Category' target in the 'A0170_Category' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

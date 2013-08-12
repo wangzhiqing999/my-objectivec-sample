@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'A0005_NsValue' target in the 'A0005_NsValue' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
