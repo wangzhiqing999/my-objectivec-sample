@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'A0220_FileHandle' target in the 'A0220_FileHandle' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

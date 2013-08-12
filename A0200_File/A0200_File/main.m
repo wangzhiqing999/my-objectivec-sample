@@ -306,6 +306,23 @@ void test_0004()
         return ;
     }
     
+    BOOL              isDir;
+	// 文件管理器 的 fileExistsAtPath 方法， 用于 检测 文件/目录 是否存在.
+	// 其中 isDirectory: &isDir 将返回， 目标是否是目录。
+	[NSFm fileExistsAtPath: fName isDirectory: &isDir];
+    if(isDir == YES)
+    {
+        NSLog(@"%@ 是一个目录， 不是一个文件！", fName);
+        return;
+    }
+    
+    
+    // 文件管理器 的 isReadableFileAtPath 方法，用于检测 文件是否可读.
+	if ([NSFm isReadableFileAtPath: fName] == NO) {
+		NSLog (@"Can't read %@\n",  fName);
+		return;
+	}
+    
 
     // Now let's make a copy
     // 文件管理器 类的 copyPath 方法 用于 复制文件.
@@ -347,5 +364,5 @@ void test_0004()
         return ;
     }
     
-    NSLog (@"判断文件是否存在、复制文件、比较文件、重命名文件、获取文件属性、删除文件的处理执行完毕!");
+    NSLog (@"判断文件是否存在、文件是否可读、复制文件、比较文件、重命名文件、获取文件属性、删除文件的处理执行完毕!");
 }

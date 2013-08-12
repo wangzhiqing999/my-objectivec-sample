@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'A0400_Archiving' target in the 'A0400_Archiving' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
