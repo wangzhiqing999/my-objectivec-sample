@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'A0500_WebService' target in the 'A0500_WebService' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
