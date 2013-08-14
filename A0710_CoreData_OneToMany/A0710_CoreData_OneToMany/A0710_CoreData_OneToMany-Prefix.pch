@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'A0710_CoreData_OneToMany' target in the 'A0710_CoreData_OneToMany' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
